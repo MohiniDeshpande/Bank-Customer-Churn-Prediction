@@ -1,4 +1,6 @@
 from sklearn.metrics import accuracy_score, roc_auc_score
+import pandas as pd
+import matplotlib.pyplot as plt
 
 def evaluate_model(model, X_test, y_test):
     """Evaluate the model using various metrics."""
