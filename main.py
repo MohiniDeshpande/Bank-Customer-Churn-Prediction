@@ -82,4 +82,4 @@ def main(file_path):
 
 # Execute main function when script is run directly 
 if __name__ == "__main__":
-    main('/bank.csv')
+    main('bank.csv')
