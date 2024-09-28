@@ -45,5 +45,4 @@ pip install -r requirement.txt
 python main.py
 
 
-Contributing
 Contributions are welcome! If you have suggestions for improvements, new features, or any issues, feel free to open an issue or submit a pull request.
