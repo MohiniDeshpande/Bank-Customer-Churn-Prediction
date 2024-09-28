@@ -28,16 +28,15 @@ Model Persistence: Save the best-performing model for future use, ensuring that 
 To run this project, you will need the following Python packages:
 pandas, numpy, seaborn, matplotlib, scikit-learn, xgboost, imbalanced-learn, joblib.
 
-You can install the required packages using:
-
-pip install -r requirements.txt
-
 **How to Run**
 
 1> Clone the repository:
 
-git clone <repository-url>
-cd <repository-directory>
+git clone [<repository-url>](https://github.com/MohiniDeshpande/Bank-Customer-Churn-Prediction)
+
+cd Bank-Customer-Churn-Prediction
+
+pip install -r requirement.txt
 
 2> Place your dataset (bank.csv) in the root directory.
 
