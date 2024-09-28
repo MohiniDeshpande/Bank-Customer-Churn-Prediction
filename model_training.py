@@ -25,6 +25,12 @@ def tune_hyperparameters(model_name, model, X_train, y_train):
             'classifier__subsample': [0.8],
             'classifier__colsample_bytree': [0.8]
         }
+     elif model_name == "Logistic Regression":
+        param_grid = {
+            'classifier__C': [0.01, 0.1, 1.0, 10.0],
+            'classifier__max_iter': [100, 200]
+        }
+
         
     grid_search = GridSearchCV(model, param_grid, cv=5)
     grid_search.fit(X_train, y_train)
